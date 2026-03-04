@@ -1,0 +1,2 @@
+# AI-Powered-Interview-Fairness-Question-Distribution-System
+AI-powered interview management system that intelligently distributes questions while ensuring difficulty balance and structural fairness. Uses TF-IDF relevancy scoring, automated equity enforcement, fairness analytics dashboards, secure authentication, PDF/CSV exports, and email reporting to create a transparent and unbiased interview process.
