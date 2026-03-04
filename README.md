@@ -2,13 +2,13 @@ AI-Powered Interview Fairness & Question Distribution System
 
 An intelligent HR automation platform that distributes interview questions among candidates while ensuring difficulty balance, structural fairness, and job-role relevancy using AI-driven analytics.
 
-📌 Overview
+ Overview
 
 Traditional interview processes often suffer from unequal difficulty distribution and hidden bias. This system introduces AI-powered fairness auditing and automatic equity enforcement to ensure a transparent and unbiased interview process.
 
 Built with Streamlit, the platform enables secure authentication, question analysis, difficulty detection, fairness monitoring, and automated report generation.
 
-🔥 Key Features
+ Key Features
 
 Secure Authentication (SHA-256 Password Hashing + SQLite)
 
@@ -32,7 +32,7 @@ Archive & Audit Logs
 
 Manual Question Editing Mode
 
-🛠 Tech Stack
+ Tech Stack
 
 Frontend/UI: Streamlit
 
@@ -48,7 +48,7 @@ PDF Generation: ReportLab
 
 Email Integration: SMTP
 
-🎯 How It Works
+ How It Works
 
 Upload a question pool (CSV or PDF).
 
