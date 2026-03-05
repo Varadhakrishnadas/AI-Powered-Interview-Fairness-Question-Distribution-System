@@ -1,40 +1,43 @@
-AI-Powered Interview Fairness & Question Distribution System
+# AI-Powered Interview Fairness & Question Distribution System
 
-An intelligent HR automation platform that distributes interview questions among candidates while ensuring difficulty balance, structural fairness, and job-role relevancy using AI-driven analytics.
+## 📌 Overview
+This project is an HR automation platform that distributes interview questions among candidates while ensuring balanced difficulty levels and job-role relevancy.
 
- Overview
+It reduces bias in traditional interview processes by automatically analyzing questions, detecting difficulty, and enforcing structured fairness during allocation.
 
-Traditional interview processes often suffer from unequal difficulty distribution and hidden bias. This system introduces AI-powered fairness auditing and automatic equity enforcement to ensure a transparent and unbiased interview process.
+---
 
-Built with Streamlit, the platform enables secure authentication, question analysis, difficulty detection, fairness monitoring, and automated report generation.
+## 🚀 Features
+- Secure authentication using SHA-256 and SQLite
+- Upload question pools (CSV / PDF)
+- Automatic difficulty classification (Easy / Medium / Hard)
+- TF-IDF based job description relevancy scoring
+- Fairness audit notifications
+- Structural parity enforcement algorithm
+- Interactive analytics dashboard (Streamlit)
+- Individual and consolidated PDF report generation
+- Email dispatch of interview reports
+- Audit logs and archive system
+- Manual question editing mode
 
- Key Features
+---
 
-Secure Authentication (SHA-256 Password Hashing + SQLite)
+## 🛠 Tech Stack
+- Python
+- Streamlit
+- SQLite
+- Pandas
+- NumPy
+- Scikit-learn (TF-IDF, Cosine Similarity)
+- ReportLab (PDF Generation)
+- SMTP (Email Integration)
 
-Upload Question Pools (CSV / PDF)
+---
 
-Automatic Difficulty Detection (Easy / Medium / Hard)
+## ▶️ How to Run
 
-TF-IDF Job Description Relevancy Scoring
-
-Fairness Audit Notifications
-
-Mandatory Equity Algorithm (Structural Parity Enforcement)
-
-Interactive Fairness Analytics Dashboard
-
-Individual & Consolidated PDF Generation
-
-Email Dispatch of Interview Reports
-
-Archive & Audit Logs
-
-Manual Question Editing Mode
-
- Tech Stack
-
-Frontend/UI: Streamlit
+1. Clone the repository  
+2. Install dependencies:
 
 Backend: Python
 
@@ -63,4 +66,18 @@ Fairness alerts are generated if imbalance exists.
 Equity algorithm can enforce structural parity.
 
 Download reports or email consolidated PDFs.# AI-Powered-Interview-Fairness-Question-Distribution-System
+
+## ▶️ How to Run
+
+1. Clone the repository
+2. Install dependencies: pip install -r requirements.txt
+3. Run the application: streamlit run app.py
+ 
+ ## 📊 Output
+
+- Balanced question distribution across candidates
+- Difficulty breakdown visualization
+- Job-role relevancy scores
+- Downloadable PDF interview reports
+- Fairness audit summary
 
